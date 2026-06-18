@@ -1,0 +1,26 @@
+{
+  "name": "gilded-octave-merge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Gilded Octave - a Vienna opera-house merge game. Capacitor iOS + HTML5 canvas.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 4173",
+    "cap:sync": "cap sync",
+    "cap:ios": "cap run ios",
+    "shots": "node scripts/capture.mjs"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/status-bar": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0",
+    "playwright": "^1.61.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
